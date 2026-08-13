@@ -1,15 +1,6 @@
-echo "# teste" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/ciepnejaneja/teste.git
-git push -u origin main
+type text.txt > README.md
 
-GOTO END
-git remote add origin https://github.com/ciepnejaneja/teste.git
-git branch -M main
-git push -u origin main
-
-:END
-ssh -T git@github.com
+git add . -v
+git commit -m "Salvo em %date%"
+git add . git commit -m "Descrição da alteração" 
+git push
