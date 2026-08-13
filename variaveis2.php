@@ -8,6 +8,4 @@ echo "<hr>";
 echo $x + $y;
 
 
-
-
 ?>
